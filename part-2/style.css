@@ -1,0 +1,33 @@
+.tweet {
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #4c86aa;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.tweet:hover {
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+  transform: translateX(5px);
+}
+
+.message {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.username {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.date {
+  color: rgb(0, 46, 110);
+  display: inline-block;
+  margin: 0 10px;
+}
